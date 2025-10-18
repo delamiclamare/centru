@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centrul Educațional „De la Mic la Mare”</title>
+  <meta name="description" content="Centrul Educațional 'De la Mic la Mare' - pregătire pentru școală, dezvoltare comunicare și performanțe pentru clasele I-IV." />
+  <style>
+    :root{--accent:#ff6f61;--bg:#f7f7fb;--card:#ffffff;--text:#222}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased}
+    .container{max-width:1000px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{display:flex;align-items:center;gap:12px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:8px 0 0;color:#444}
+    .hero{margin-top:18px;background:linear-gradient(180deg,rgba(255,255,255,0.6),transparent);padding:22px;border-radius:14px;display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,15,30,0.06)}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    .feature{padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fff);border:1px solid #f0f0f4}
+    .cta{display:flex;flex-direction:column;gap:10px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-accent{background:var(--accent);color:#fff}
+    .btn-outline{border:2px solid var(--accent);color:var(--accent);background:transparent}
+    .contact{font-size:0.98rem}
+    footer{margin-top:18px;text-align:center;color:#666;font-size:0.9rem}
+    .address{font-weight:600}
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr}
+      .features{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:520px){
+      .features{grid-template-columns:1fr}
+      h1{font-size:1.25rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div>
+          <h1>Centrul Educațional „De la Mic la Mare”</h1>
+          <p class="lead">Învățare cu bucurie, curiozitate și aventură pentru copii</p>
+        </div>
+      </div>
+      <div class="contact">📞 <a href="tel:+37360479552">060 479 552</a><br/><small>Administrator: Rodica Luchian</small></div>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h2>🌟 Vrei să valorifici potențialul copilului tău?</h2>
+        <p>Vino la Centrul Educațional <strong>„De la Mic la Mare”</strong> – locul unde învățarea se transformă în bucurie, curiozitate și aventură!</p>
+
+        <h3 style="margin-top:14px">✨ Ce oferim:</h3>
+        <div class="features">
+          <div class="feature">✅ <strong>Pregătire temeinică pentru școală</strong><br/><small>Abordări practice, jucării didactice și exerciții structurate.</small></div>
+          <div class="feature">✅ <strong>Dezvoltarea abilităților de comunicare</strong><br/><small>Exerciții de vorbire, povestiri, jocuri de rol.</small></div>
+          <div class="feature">✅ <strong>Performanțe școlare (I–IV)</strong><br/><small>Limba română, Matematică, Științe — consolidare și încredere.</small></div>
+        </div>
+
+        <h3 style="margin-top:14px">🎯 Metoda noastră</h3>
+        <p>La centrul nostru, fiecare copil este încurajat să gândească liber, să pună întrebări și să caute răspunsuri, dezvoltându-și încrederea și dorința de a reuși.</p>
+
+        <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn btn-accent" href="tel:+37360479552">Sună acum</a>
+          <a class="btn btn-outline" href="#contact">Contact & Adresă</a>
+        </div>
+      </div>
+
+      <aside class="card cta">
+        <h3>Program scurt</h3>
+        <p><strong>Sesiuni flexibile</strong> – cursuri de grupă și individuale. Programe adaptate pentru vârste preșcolare și clasele primare.</p>
+
+        <div style="margin-top:auto">
+          <h4>Contact rapid</h4>
+          <p class="contact">📞 <a href="tel:+37360479552">060 479 552</a><br/>Administrator: <strong>Rodica Luchian</strong></p>
+
+          <h4 id="contact">📍 Adresa</h4>
+          <p class="address">Str. Mircea cel Bătrân 11, of. 20<br/>Magazinul Basso Prezzo, etajul 3 (fostul mag. Budești)</p>
+
+          <a class="btn btn-accent" href="https://www.google.com/maps/search/?api=1&query=Mircea+cel+Batr%C3%A2n+11,+Chi%C8%99in%C4%83u" target="_blank" rel="noopener">Vezi pe hartă</a>
+        </div>
+      </aside>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="card">
+        <h3>De ce să ne alegi?</h3>
+        <ul>
+          <li>Metodologie prietenoasă și adaptată copiilor</li>
+          <li>Profesori cu experiență și materiale didactice moderne</li>
+          <li>Progrese vizibile în învățare și comunicare</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <strong>Centrul Educațional „De la Mic la Mare”</strong> — Contact: <a href="tel:+37360479552">060 479 552</a> | Administrator: Rodica Luchian</p>
+    </footer>
+  </div>
+</body>
+</html>
